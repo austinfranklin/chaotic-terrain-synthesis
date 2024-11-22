@@ -4,208 +4,22 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1941.0, 434.0, 1031.0, 783.0 ],
+		"rect" : [ 2270.0, 536.0, 1031.0, 783.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 210.0, 90.0, 138.0, 22.0 ],
-					"text" : "routepass signal float int"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 12.0,
-					"id" : "obj-28",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 98.0, 435.0, 33.0 ],
-					"text" : "a polar coordinate wavetable reader\nGNU LGPL v.3 License"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-88",
-					"linecount" : 24,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 135.0, 435.0, 328.0 ],
-					"text" : "A polar coordinate system based wavetable reader, using poly~ for upsampling (for anti-aliasing), using gen~ for converting polar to cartesian, using jitter for reading from a wavetable matrix.\n\ninlets:\n1 => frequency (how quickly is the rotation in the table)\n2 => radius (how big is the radius for the rotation form the center)\n\noulets:\n1 => wavetable constructed signal\n2 => read x-coordinate\n3 => read y-coordinate\n\narguments:\n#1 => jit.matrix name (wavetable to read from)\n\nattributes:\n@quality => the table read quality (bad, low, medium, high, excellent)\n\nbad : no upsampling, no interpolation\nlow: 2x upsampling, no interpolation\nmedium: 2x upsampling, linear interpolation\nhigh: 4x upsampling, linear interpolation\nexcellent: 8x upsampling, linear interpolation",
-					"textcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 40.0,
-					"id" : "obj-27",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 45.0, 435.0, 51.0 ],
-					"text" : "polar.wave~",
-					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 48.0, 90.0, 138.0, 22.0 ],
-					"text" : "routepass signal float int"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "dsp.gen",
-						"rect" : [ 59.0, 103.0, 600.0, 450.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 120.0, 35.0, 22.0 ],
-									"text" : "out 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 45.0, 190.0, 22.0 ],
-									"text" : "in 1 @comment radius @default 1"
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
- ],
-						"originid" : "pat-174"
-					}
-,
-					"patching_rect" : [ 48.0, 135.0, 94.0, 22.0 ],
-					"text" : "gen~ @t default"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "dsp.gen",
-						"rect" : [ 59.0, 103.0, 600.0, 450.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 135.0, 35.0, 22.0 ],
-									"text" : "out 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 45.0, 190.0, 22.0 ],
-									"text" : "in 1 @comment radius @default 1"
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
- ],
-						"originid" : "pat-176"
-					}
-,
-					"patching_rect" : [ 210.0, 135.0, 94.0, 22.0 ],
-					"text" : "gen~ @t default"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 360.0, 360.0, 59.0, 22.0 ],
+					"patching_rect" : [ 390.0, 390.0, 59.0, 22.0 ],
 					"text" : "route dim"
 				}
 
@@ -217,7 +31,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 330.0, 73.0, 22.0 ],
+					"patching_rect" : [ 390.0, 360.0, 73.0, 22.0 ],
 					"text" : "jit.matrixinfo"
 				}
 
@@ -229,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 390.0, 75.0, 22.0 ],
+					"patching_rect" : [ 390.0, 420.0, 75.0, 22.0 ],
 					"text" : "tableSize $1"
 				}
 
@@ -241,7 +55,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 360.0, 300.0, 123.0, 22.0 ],
+					"patching_rect" : [ 390.0, 330.0, 123.0, 22.0 ],
 					"text" : "jit.matrix #1"
 				}
 
@@ -253,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 100.5, 180.0, 58.0, 22.0 ],
+					"patching_rect" : [ 130.5, 210.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -265,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 100.5, 210.0, 148.0, 22.0 ],
+					"patching_rect" : [ 130.5, 240.0, 148.0, 22.0 ],
 					"text" : "patcherargs @quality high"
 				}
 
@@ -277,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 100.5, 330.0, 59.0, 22.0 ],
+					"patching_rect" : [ 130.5, 360.0, 59.0, 22.0 ],
 					"text" : "unpack i i"
 				}
 
@@ -289,7 +103,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 100.5, 255.0, 104.0, 22.0 ],
+					"patching_rect" : [ 130.5, 285.0, 104.0, 22.0 ],
 					"text" : "route quality done"
 				}
 
@@ -326,7 +140,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 100.5, 300.0, 160.0, 22.0 ],
+					"patching_rect" : [ 130.5, 330.0, 160.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"precision" : 6
@@ -345,7 +159,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 210.0, 45.0, 30.0, 30.0 ]
+					"patching_rect" : [ 355.0, 75.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -358,7 +172,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 48.0, 45.0, 30.0, 30.0 ]
+					"patching_rect" : [ 78.0, 75.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -370,7 +184,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 325.0, 510.0, 30.0, 30.0 ]
+					"patching_rect" : [ 355.0, 540.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -382,7 +196,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.5, 510.0, 30.0, 30.0 ]
+					"patching_rect" : [ 216.5, 540.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -394,7 +208,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 510.0, 30.0, 30.0 ]
+					"patching_rect" : [ 78.0, 540.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -405,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.5, 375.0, 55.0, 22.0 ],
+					"patching_rect" : [ 130.5, 405.0, 55.0, 22.0 ],
 					"text" : "interp $1"
 				}
 
@@ -415,10 +229,10 @@
 					"id" : "obj-56",
 					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 48.0, 450.0, 296.0, 35.0 ],
+					"patching_rect" : [ 78.0, 480.0, 296.0, 35.0 ],
 					"text" : "poly~ _polar.tableread~ 1 up 4 @args #1 512 1 @target 0 @parallel 1 @resampling 1"
 				}
 
@@ -430,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 375.0, 50.0, 22.0 ],
+					"patching_rect" : [ 202.5, 405.0, 50.0, 22.0 ],
 					"text" : "up $1"
 				}
 
@@ -466,62 +280,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-14", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-14", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-14", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-15", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-15", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -536,14 +294,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-56", 1 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -619,7 +377,7 @@
 
 			}
  ],
-		"originid" : "pat-172",
+		"originid" : "pat-20",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

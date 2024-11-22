@@ -45,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 148.0, 151.0, 30.0, 30.0 ]
 				}
 
@@ -104,7 +104,7 @@
 
 			}
  ],
-		"originid" : "pat-154",
+		"originid" : "pat-534",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
