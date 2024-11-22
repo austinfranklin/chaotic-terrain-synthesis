@@ -1309,7 +1309,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 73.0, 828.0, 640.0, 480.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-251",
