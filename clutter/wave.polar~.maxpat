@@ -10,33 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2151.0, 388.0, 1031.0, 783.0 ],
+		"rect" : [ 1941.0, 434.0, 1031.0, 783.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 285.0, 375.0, 41.0, 22.0 ],
-					"text" : "sig~ 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 232.666666666666657, 375.0, 41.0, 22.0 ],
-					"text" : "sig~ 0"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",

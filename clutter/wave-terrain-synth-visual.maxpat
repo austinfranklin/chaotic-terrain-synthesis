@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1803.0, 98.0, 1304.0, 1053.0 ],
+		"rect" : [ 1438.0, 91.0, 1602.0, 1213.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -3739,7 +3739,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 285.0, 513.0, 1152.0, 711.0 ],
+						"rect" : [ 1132.0, 486.0, 1152.0, 711.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -6026,8 +6026,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2378.0, 691.0, 781.0, 567.0 ],
+						"rect" : [ 1686.0, 811.0, 972.0, 428.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -6324,6 +6325,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-56", 0 ],
 									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 1 ],
+									"source" : [ "obj-50", 0 ]
 								}
 
 							}
