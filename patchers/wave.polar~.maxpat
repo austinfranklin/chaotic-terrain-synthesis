@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 833.0, 146.0, 696.0, 788.0 ],
+		"rect" : [ 644.0, 225.0, 696.0, 788.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -159,7 +159,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 355.0, 75.0, 30.0, 30.0 ]
+					"patching_rect" : [ 563.0, 75.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -184,7 +184,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 540.0, 30.0, 30.0 ]
+					"patching_rect" : [ 563.0, 540.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -196,7 +196,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.5, 540.0, 30.0, 30.0 ]
+					"patching_rect" : [ 320.5, 546.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -227,12 +227,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 78.0, 480.0, 296.0, 35.0 ],
+					"patching_rect" : [ 78.0, 480.0, 504.0, 22.0 ],
 					"text" : "poly~ _polar.tableread~ 1 up 4 @args #1 512 1 @target 0 @parallel 1 @resampling 1"
 				}
 
@@ -377,7 +376,7 @@
 
 			}
  ],
-		"originid" : "pat-20",
+		"originid" : "pat-358",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

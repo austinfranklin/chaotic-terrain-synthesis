@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 58.0, 221.0, 669.0, 634.0 ],
+		"rect" : [ 776.0, 307.0, 669.0, 634.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -462,7 +462,7 @@
 
 							}
  ],
-						"originid" : "pat-320"
+						"originid" : "pat-394"
 					}
 ,
 					"patching_rect" : [ 45.0, 483.0, 86.0, 22.0 ],
@@ -619,7 +619,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 1824.0, 284.0, 600.0, 450.0 ],
+						"rect" : [ 761.0, 325.0, 600.0, 450.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -733,7 +733,7 @@
 
 							}
  ],
-						"originid" : "pat-322"
+						"originid" : "pat-396"
 					}
 ,
 					"patching_rect" : [ 45.0, 448.0, 98.0, 22.0 ],
@@ -970,7 +970,7 @@
 
 							}
  ],
-						"originid" : "pat-324"
+						"originid" : "pat-398"
 					}
 ,
 					"patching_rect" : [ 45.0, 284.0, 130.0, 22.0 ],
@@ -1136,9 +1136,7 @@
 
 			}
  ],
-		"originid" : "pat-318",
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"originid" : "pat-392"
 	}
 
 }

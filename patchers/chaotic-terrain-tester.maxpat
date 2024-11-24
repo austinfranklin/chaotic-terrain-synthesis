@@ -10,9 +10,21 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 692.0, 100.0, 1002.0, 914.0 ],
+		"rect" : [ 700.0, 100.0, 994.0, 914.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1310.000031232833862, 842.857162952423096, 150.0, 74.0 ],
+					"text" : "Weird. Why does the read path get smaller when the frequency gets higher? There is a bug somewhere."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-391",
 					"maxclass" : "comment",
@@ -97,7 +109,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3561.971877694129944, 294.366201043128967, 165.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "These ony work with Tinkerbell"
 				}
 
@@ -110,7 +121,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2990.140884280204773, 294.366201043128967, 165.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "These ony work with Peter De Jong"
 				}
 
@@ -123,7 +133,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2502.81693422794342, 315.492961883544922, 165.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "These ony work with Logistic Map"
 				}
 
@@ -608,7 +617,7 @@
 
 							}
  ],
-						"originid" : "pat-246"
+						"originid" : "pat-338"
 					}
 ,
 					"patching_rect" : [ 3419.71835470199585, 467.605639934539795, 54.0, 22.0 ],
@@ -1114,7 +1123,7 @@
 
 							}
  ],
-						"originid" : "pat-242"
+						"originid" : "pat-340"
 					}
 ,
 					"patching_rect" : [ 2498.648481845855713, 172.97296142578125, 120.0, 22.0 ],
@@ -1381,7 +1390,7 @@
 
 							}
  ],
-						"originid" : "pat-244"
+						"originid" : "pat-342"
 					}
 ,
 					"patching_rect" : [ 2728.378196239471436, 172.97296142578125, 128.0, 22.0 ],
@@ -1858,7 +1867,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1134.328317642211914, 355.223867893218994, 99.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Hindmarsh-Rose"
 				}
 
@@ -1871,7 +1879,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1902.6875, 48.8125, 165.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "These ony work with Hindmarsh-Rose"
 				}
 
@@ -2394,7 +2401,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1077.611901760101318, 243.283573389053345, 77.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Logistic-Map"
 				}
 
@@ -2407,7 +2413,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1059.701454639434814, 207.462679147720337, 60.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Tinkerbell"
 				}
 
@@ -2420,7 +2425,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1044.776082038879395, 168.656710386276245, 101.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Thomas-Attractor"
 				}
 
@@ -2433,7 +2437,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1020.895485877990723, 134.328353404998779, 45.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Lorenz"
 				}
 
@@ -2503,6 +2506,164 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 974.0, 275.0, 600.0, 496.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"boxes" : [ 							{
+								"box" : 								{
+									"code" : "History xn, yn;\r\nxnplus1 = sin(in1*yn) + in3 * cos(in1*xn);\r\nynplus1 = sin(in2*xn) + in4 * cos(in2*yn);\r\nxn = xnplus1;\r\nyn = ynplus1;\r\nout1 = xnplus1/2.0;\r\nout2 = ynplus1/2.0; ",
+									"fontface" : 0,
+									"fontname" : "<Monospaced>",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "codebox",
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 152.0, 102.0, 330.0, 291.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 422.0, 414.0, 37.0, 22.0 ],
+									"text" : "out 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 491.0, 58.0, 75.0, 22.0 ],
+									"text" : "param d 0.7"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 263.0, 58.0, 75.0, 22.0 ],
+									"text" : "param b 1.6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 378.0, 64.0, 67.0, 22.0 ],
+									"text" : "param c 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 114.0, 58.0, 79.0, 22.0 ],
+									"text" : "param a -1.4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 170.0, 428.0, 37.0, 22.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 2 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 3 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ],
+						"originid" : "pat-380",
+						"autosave" : 0
+					}
+,
 					"patching_rect" : [ 985.074591636657715, 461.194013357162476, 36.0, 22.0 ],
 					"text" : "gen~"
 				}
@@ -2958,7 +3119,7 @@
 
 											}
  ],
-										"originid" : "pat-8"
+										"originid" : "pat-348"
 									}
 ,
 									"patching_rect" : [ 50.0, 353.0, 68.5, 22.0 ],
@@ -3167,7 +3328,7 @@
 
 							}
  ],
-						"originid" : "pat-6"
+						"originid" : "pat-346"
 					}
 ,
 					"patching_rect" : [ 149.999985694885254, 515.0, 94.0, 22.0 ],
@@ -3415,7 +3576,7 @@
 
 											}
  ],
-										"originid" : "pat-18"
+										"originid" : "pat-356"
 									}
 ,
 									"patching_rect" : [ 285.0, 128.0, 49.0, 22.0 ],
@@ -3582,7 +3743,7 @@
 
 							}
  ],
-						"originid" : "pat-16"
+						"originid" : "pat-354"
 					}
 ,
 					"patching_rect" : [ 312.499970197677612, 786.999924421310425, 85.0, 22.0 ],
@@ -3736,7 +3897,7 @@
 
 							}
  ],
-						"originid" : "pat-30"
+						"originid" : "pat-368"
 					}
 ,
 					"patching_rect" : [ 94.999990940093994, 1051.249899744987488, 85.0, 22.0 ],
@@ -4553,7 +4714,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
+					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -5155,7 +5325,7 @@
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-336",
 		"parameters" : 		{
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-339" : [ "index[2]", "index", 0 ],
@@ -5171,21 +5341,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Clifford.gendsp",
-				"bootpath" : "~/chaotic-terrain-synthesis/clutter",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_polar.tableread~.maxpat",
-				"bootpath" : "~/chaotic-terrain-synthesis/clutter",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wave.polar~.maxpat",
-				"bootpath" : "~/chaotic-terrain-synthesis/clutter",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
