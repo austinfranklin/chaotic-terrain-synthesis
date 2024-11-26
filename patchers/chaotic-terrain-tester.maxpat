@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 700.0, 100.0, 994.0, 914.0 ],
+		"rect" : [ 1314.0, 87.0, 2084.0, 1233.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -617,7 +617,7 @@
 
 							}
  ],
-						"originid" : "pat-338"
+						"originid" : "pat-6"
 					}
 ,
 					"patching_rect" : [ 3419.71835470199585, 467.605639934539795, 54.0, 22.0 ],
@@ -1123,7 +1123,7 @@
 
 							}
  ],
-						"originid" : "pat-340"
+						"originid" : "pat-8"
 					}
 ,
 					"patching_rect" : [ 2498.648481845855713, 172.97296142578125, 120.0, 22.0 ],
@@ -1390,7 +1390,7 @@
 
 							}
  ],
-						"originid" : "pat-342"
+						"originid" : "pat-10"
 					}
 ,
 					"patching_rect" : [ 2728.378196239471436, 172.97296142578125, 128.0, 22.0 ],
@@ -2660,8 +2660,7 @@
 
 							}
  ],
-						"originid" : "pat-380",
-						"autosave" : 0
+						"originid" : "pat-12"
 					}
 ,
 					"patching_rect" : [ 985.074591636657715, 461.194013357162476, 36.0, 22.0 ],
@@ -3119,7 +3118,7 @@
 
 											}
  ],
-										"originid" : "pat-348"
+										"originid" : "pat-16"
 									}
 ,
 									"patching_rect" : [ 50.0, 353.0, 68.5, 22.0 ],
@@ -3328,7 +3327,7 @@
 
 							}
  ],
-						"originid" : "pat-346"
+						"originid" : "pat-14"
 					}
 ,
 					"patching_rect" : [ 149.999985694885254, 515.0, 94.0, 22.0 ],
@@ -3576,7 +3575,7 @@
 
 											}
  ],
-										"originid" : "pat-356"
+										"originid" : "pat-26"
 									}
 ,
 									"patching_rect" : [ 285.0, 128.0, 49.0, 22.0 ],
@@ -3743,7 +3742,7 @@
 
 							}
  ],
-						"originid" : "pat-354"
+						"originid" : "pat-24"
 					}
 ,
 					"patching_rect" : [ 312.499970197677612, 786.999924421310425, 85.0, 22.0 ],
@@ -3897,7 +3896,7 @@
 
 							}
  ],
-						"originid" : "pat-368"
+						"originid" : "pat-38"
 					}
 ,
 					"patching_rect" : [ 94.999990940093994, 1051.249899744987488, 85.0, 22.0 ],
@@ -4714,16 +4713,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"order" : 0,
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -5325,7 +5315,7 @@
 
 			}
  ],
-		"originid" : "pat-336",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-339" : [ "index[2]", "index", 0 ],
@@ -5340,13 +5330,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Clifford.gendsp",
-				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "_polar.tableread~.maxpat",
 				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
