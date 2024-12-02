@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 211.5, 396.0, 150.0, 74.0 ],
+					"text" : "These read from first and second planes (x,y) of the matrix. The jit.rota in encapsulation is only for visualization."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -31,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 156.0, 374.0, 186.0, 22.0 ],
+					"patching_rect" : [ 156.0, 368.0, 214.0, 22.0 ],
 					"text" : "jit.peek~ #1 2 1 @interp 1"
 				}
 
@@ -462,7 +474,7 @@
 
 							}
  ],
-						"originid" : "pat-654"
+						"originid" : "pat-424"
 					}
 ,
 					"patching_rect" : [ 45.0, 483.0, 86.0, 22.0 ],
@@ -733,7 +745,7 @@
 
 							}
  ],
-						"originid" : "pat-656"
+						"originid" : "pat-426"
 					}
 ,
 					"patching_rect" : [ 45.0, 448.0, 98.0, 22.0 ],
@@ -970,7 +982,7 @@
 
 							}
  ],
-						"originid" : "pat-658"
+						"originid" : "pat-428"
 					}
 ,
 					"patching_rect" : [ 45.0, 284.0, 130.0, 22.0 ],
@@ -985,7 +997,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 45.0, 332.0, 192.0, 22.0 ],
+					"patching_rect" : [ 45.0, 332.0, 214.0, 22.0 ],
 					"text" : "jit.peek~ #1 2 0 @interp 1"
 				}
 
@@ -1136,7 +1148,7 @@
 
 			}
  ],
-		"originid" : "pat-652"
+		"originid" : "pat-422"
 	}
 
 }

@@ -10,9 +10,119 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1682.0, 522.0, 696.0, 788.0 ],
+		"rect" : [ 1688.0, 151.0, 1161.0, 996.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 757.0, 667.0, 120.0, 60.0 ],
+					"presentation_linecount" : 4,
+					"text" : "The downsample attribute was messing things up. Don't need nor want."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 907.0, 470.0, 188.5, 60.0 ],
+					"presentation_linecount" : 4,
+					"text" : "capture the mesh to a node with orthographic projection. Add the texture of the gl.bfg for the color texture on the gl.mesh for display"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 757.0, 540.0, 61.0, 22.0 ],
+					"text" : "s texScan"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 985.0, 540.0, 213.0, 22.0 ],
+					"text" : "jit.gl.camera @position 0 0 4 @ortho 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_gl_texture", "", "" ],
+					"patching_rect" : [ 757.0, 420.0, 475.0, 22.0 ],
+					"text" : "jit.gl.node @name 0#_scan @capture 1 @erase_color 0 0 0 0 @adapt 0 @dim 512 512"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 630.0, 667.0, 120.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "display the waveshape path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 434.0, 628.0, 51.0, 22.0 ],
+					"text" : "r render"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-108",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 409.0, 673.0, 213.0, 22.0 ],
+					"text" : "jit.catch~ 2 @framesize 256 @mode 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 9,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 409.0, 718.0, 564.0, 22.0 ],
+					"text" : "jit.gl.mesh 0#_scan @draw_mode line_strip @color 1 1 1 1 @depth_enable 0 @layer 100 @line_width 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -55,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 390.0, 330.0, 123.0, 22.0 ],
+					"patching_rect" : [ 390.0, 330.0, 139.0, 22.0 ],
 					"text" : "jit.matrix #1"
 				}
 
@@ -159,7 +269,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 563.0, 75.0, 30.0, 30.0 ]
+					"patching_rect" : [ 592.0, 75.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -184,7 +294,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 563.0, 540.0, 30.0, 30.0 ]
+					"patching_rect" : [ 592.0, 540.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -196,7 +306,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.5, 546.0, 30.0, 30.0 ]
+					"patching_rect" : [ 335.0, 540.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -231,7 +341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 78.0, 480.0, 504.0, 22.0 ],
+					"patching_rect" : [ 78.0, 480.0, 533.0, 22.0 ],
 					"text" : "poly~ _polar.tableread~ 1 up 4 @args #1 512 1 @target 0 @parallel 1 @resampling 1"
 				}
 
@@ -265,8 +375,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -321,8 +445,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-43", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 1 ],
+					"order" : 0,
+					"source" : [ "obj-56", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"order" : 0,
+					"source" : [ "obj-56", 1 ]
 				}
 
 			}
@@ -336,6 +490,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
+					"order" : 1,
 					"source" : [ "obj-56", 1 ]
 				}
 
@@ -343,6 +498,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"order" : 1,
 					"source" : [ "obj-56", 2 ]
 				}
 
@@ -376,7 +532,7 @@
 
 			}
  ],
-		"originid" : "pat-640",
+		"originid" : "pat-541",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
