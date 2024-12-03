@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1688.0, 151.0, 1161.0, 996.0 ],
+		"rect" : [ 1688.0, 157.0, 1346.0, 990.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -20,7 +20,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 757.0, 667.0, 120.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "The downsample attribute was messing things up. Don't need nor want."
 				}
 
@@ -33,7 +32,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 907.0, 470.0, 188.5, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "capture the mesh to a node with orthographic projection. Add the texture of the gl.bfg for the color texture on the gl.mesh for display"
 				}
 
@@ -44,8 +42,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 757.0, 540.0, 61.0, 22.0 ],
-					"text" : "s texScan"
+					"patching_rect" : [ 757.0, 540.0, 103.0, 22.0 ],
+					"text" : "s #1_scan"
 				}
 
 			}
@@ -56,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 985.0, 540.0, 213.0, 22.0 ],
+					"patching_rect" : [ 938.0, 540.0, 213.0, 22.0 ],
 					"text" : "jit.gl.camera @position 0 0 4 @ortho 2"
 				}
 
@@ -68,8 +66,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 757.0, 420.0, 475.0, 22.0 ],
-					"text" : "jit.gl.node @name 0#_scan @capture 1 @erase_color 0 0 0 0 @adapt 0 @dim 512 512"
+					"patching_rect" : [ 757.0, 420.0, 381.0, 22.0 ],
+					"text" : "jit.gl.node @capture 1 @erase_color 0 0 0 0 @adapt 0 @dim 512 512"
 				}
 
 			}
@@ -81,7 +79,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 630.0, 667.0, 120.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "display the waveshape path"
 				}
 
@@ -117,8 +114,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 409.0, 718.0, 564.0, 22.0 ],
-					"text" : "jit.gl.mesh 0#_scan @draw_mode line_strip @color 1 1 1 1 @depth_enable 0 @layer 100 @line_width 2"
+					"patching_rect" : [ 409.0, 718.0, 578.0, 22.0 ],
+					"text" : "jit.gl.mesh #0_scan @draw_mode line_strip @color 1 1 1 1 @depth_enable 0 @layer 100 @line_width 2"
 				}
 
 			}
@@ -453,6 +450,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
+					"order" : 0,
+					"source" : [ "obj-43", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 1,
 					"source" : [ "obj-43", 1 ]
 				}
 
@@ -532,7 +538,7 @@
 
 			}
  ],
-		"originid" : "pat-541",
+		"originid" : "pat-755",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
