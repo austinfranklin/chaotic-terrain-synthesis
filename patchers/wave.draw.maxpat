@@ -11,6 +11,7 @@
 ,
 		"classnamespace" : "box",
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		"rect" : [ 134.0, 100.0, 1000.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
@@ -53,6 +54,12 @@
 			}
 , 			{
 				"box" : 				{
+=======
+		"rect" : [ 2134.0, 455.0, 1000.0, 780.0 ],
+		"gridsize" : [ 15.0, 15.0 ],
+		"boxes" : [ 			{
+				"box" : 				{
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 =======
 		"rect" : [ 2134.0, 455.0, 1000.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
@@ -628,6 +635,7 @@
 
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 , 			{
 				"patchline" : 				{
@@ -638,6 +646,8 @@
 			}
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 =======
 >>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
  ],
