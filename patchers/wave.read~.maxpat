@@ -11,7 +11,11 @@
 ,
 		"classnamespace" : "box",
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"rect" : [ 348.0, 100.0, 1346.0, 914.0 ],
+=======
+		"rect" : [ 1688.0, 151.0, 1161.0, 996.0 ],
+>>>>>>> parent of a6ffe11 (Merge branch 'main' of https://github.com/austinfranklin/chaotic-terrain-synthesis)
 =======
 		"rect" : [ 1688.0, 151.0, 1161.0, 996.0 ],
 >>>>>>> parent of a6ffe11 (Merge branch 'main' of https://github.com/austinfranklin/chaotic-terrain-synthesis)
@@ -28,6 +32,9 @@
 =======
 					"patching_rect" : [ 757.0, 667.0, 120.0, 60.0 ],
 					"presentation_linecount" : 4,
+<<<<<<< HEAD
+>>>>>>> parent of a6ffe11 (Merge branch 'main' of https://github.com/austinfranklin/chaotic-terrain-synthesis)
+=======
 >>>>>>> parent of a6ffe11 (Merge branch 'main' of https://github.com/austinfranklin/chaotic-terrain-synthesis)
 					"text" : "The downsample attribute was messing things up. Don't need nor want."
 				}
@@ -541,7 +548,11 @@
 			}
  ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"originid" : "pat-845",
+=======
+		"originid" : "pat-541",
+>>>>>>> parent of a6ffe11 (Merge branch 'main' of https://github.com/austinfranklin/chaotic-terrain-synthesis)
 =======
 		"originid" : "pat-541",
 >>>>>>> parent of a6ffe11 (Merge branch 'main' of https://github.com/austinfranklin/chaotic-terrain-synthesis)
