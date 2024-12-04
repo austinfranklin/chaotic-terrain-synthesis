@@ -12,6 +12,7 @@
 		"classnamespace" : "box",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		"rect" : [ 34.0, 100.0, 1018.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
@@ -243,6 +244,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 >>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
+=======
+		"rect" : [ 1351.0, 90.0, 1634.0, 1225.0 ],
+		"gridsize" : [ 15.0, 15.0 ],
+		"boxes" : [ 			{
+				"box" : 				{
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 					"id" : "obj-219",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -429,8 +436,12 @@
 					"outlettype" : [ "" ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 					"patching_rect" : [ 1294.999876499176025, 818.499921321868896, 99.0, 35.0 ],
+=======
+					"patching_rect" : [ 1294.999876499176025, 818.499921321868896, 96.026541590690613, 35.0 ],
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 =======
 					"patching_rect" : [ 1294.999876499176025, 818.499921321868896, 96.026541590690613, 35.0 ],
 >>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
@@ -5024,10 +5035,13 @@
 		"dependency_cache" : [ 			{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				"name" : "Clifford.gendsp",
 				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
 =======
+=======
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 =======
 >>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 				"name" : "_polar.tableread~.maxpat",
@@ -5040,6 +5054,9 @@
 				"name" : "henon.gendsp",
 				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
+=======
 >>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 =======
 >>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
@@ -5048,6 +5065,7 @@
 				"implicit" : 1
 			}
 , 			{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				"name" : "_polar.tableread~.maxpat",
@@ -5061,6 +5079,8 @@
 				"implicit" : 1
 			}
 , 			{
+=======
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 =======
 >>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 =======
