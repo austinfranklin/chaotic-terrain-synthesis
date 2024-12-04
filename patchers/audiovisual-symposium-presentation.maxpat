@@ -10,6 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		"rect" : [ 34.0, 100.0, 1018.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
@@ -229,6 +230,12 @@
 			}
 , 			{
 				"box" : 				{
+=======
+		"rect" : [ 1351.0, 90.0, 1634.0, 1225.0 ],
+		"gridsize" : [ 15.0, 15.0 ],
+		"boxes" : [ 			{
+				"box" : 				{
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 					"id" : "obj-219",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -413,8 +420,12 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 					"patching_rect" : [ 1294.999876499176025, 818.499921321868896, 99.0, 35.0 ],
+=======
+					"patching_rect" : [ 1294.999876499176025, 818.499921321868896, 96.026541590690613, 35.0 ],
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 					"text" : "128 60 0 144 60 64"
 =======
 					"patching_rect" : [ 1294.999876499176025, 818.499921321868896, 96.026541590690613, 35.0 ],
@@ -1343,7 +1354,7 @@
 
 							}
  ],
-						"originid" : "pat-222"
+						"originid" : "pat-14"
 					}
 ,
 					"patching_rect" : [ 2498.648481845855713, 172.97296142578125, 120.0, 22.0 ],
@@ -1610,7 +1621,7 @@
 
 							}
  ],
-						"originid" : "pat-224"
+						"originid" : "pat-16"
 					}
 ,
 					"patching_rect" : [ 2728.378196239471436, 172.97296142578125, 128.0, 22.0 ],
@@ -2916,7 +2927,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 93.149251222610474, 161.0, 20.0 ],
+					"patching_rect" : [ 226.249978423118591, 91.249991297721863, 176.249983191490173, 20.0 ],
 					"text" : "Click map and drag to rotate"
 				}
 
@@ -3147,7 +3158,7 @@
 
 							}
  ],
-						"originid" : "pat-246"
+						"originid" : "pat-44"
 					}
 ,
 					"patching_rect" : [ 75.999985694885254, 1181.0, 85.0, 22.0 ],
@@ -3566,7 +3577,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -3596,13 +3607,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-109", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -3683,7 +3687,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-129", 0 ]
 				}
 
@@ -3761,28 +3765,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-146", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-147", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-148", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-149", 0 ]
 				}
 
@@ -4113,7 +4117,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-263", 0 ]
 				}
 
@@ -4155,7 +4159,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-274", 0 ]
 				}
 
@@ -4368,7 +4372,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-322", 0 ]
 				}
 
@@ -4979,13 +4983,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-71", 0 ]
 				}
@@ -4999,7 +4996,7 @@
 
 			}
  ],
-		"originid" : "pat-214",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-339" : [ "index[2]", "index", 0 ],
@@ -5014,14 +5011,27 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				"name" : "Clifford.gendsp",
 				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
+=======
+				"name" : "_polar.tableread~.maxpat",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "henon.gendsp",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
+<<<<<<< HEAD
 				"name" : "_polar.tableread~.maxpat",
 				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
 =======
@@ -5033,22 +5043,24 @@
 				"implicit" : 1
 			}
 , 			{
+=======
+>>>>>>> parent of 72869d2 (Fixed gen file loader & added/cleaned audiovis)
 				"name" : "pnp.reverb~.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
-				"patcherrelativepath" : "../../../../../../Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
+				"patcherrelativepath" : "../../Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wave.draw.maxpat",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wave.read~.maxpat",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5090,8 +5102,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"oscreceiveudpport" : 0
+ ]
 	}
 
 }
