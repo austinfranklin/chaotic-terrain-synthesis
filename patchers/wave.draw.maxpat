@@ -10,6 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
+<<<<<<< Updated upstream
 		"rect" : [ 134.0, 100.0, 1000.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -21,6 +22,31 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 187.0, 481.0, 74.0, 22.0 ],
 					"text" : "r wave.reset"
+=======
+		"rect" : [ 627.0, 145.0, 1000.0, 780.0 ],
+		"gridsize" : [ 15.0, 15.0 ],
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 597.0, 244.0, 80.0, 22.0 ],
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 659.0, 167.0, 99.0, 22.0 ],
+					"text" : "route matrix read"
+>>>>>>> Stashed changes
 				}
 
 			}
@@ -32,8 +58,13 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
+<<<<<<< Updated upstream
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 195.0, 201.0, 30.0, 30.0 ]
+=======
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 659.0, 75.0, 30.0, 30.0 ]
+>>>>>>> Stashed changes
 				}
 
 			}
@@ -44,7 +75,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 205.0, 51.0, 22.0 ],
+					"patching_rect" : [ 195.0, 205.0, 51.0, 22.0 ],
 					"text" : "r render"
 				}
 
@@ -80,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 492.0, 448.0, 150.0, 33.0 ],
+					"patching_rect" : [ 399.0, 472.0, 150.0, 33.0 ],
 					"text" : "Scale the plane size here. Visualization only."
 				}
 
@@ -437,6 +468,22 @@
 				}
 
 			}
+<<<<<<< Updated upstream
+=======
+, 			{
+				"box" : 				{
+					"attr" : "auto_colors",
+					"id" : "obj-10",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 399.0, 511.0, 150.0, 22.0 ]
+				}
+
+			}
+>>>>>>> Stashed changes
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -477,6 +524,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -532,14 +586,30 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+<<<<<<< Updated upstream
 					"source" : [ "obj-64", 0 ]
+=======
+					"source" : [ "obj-6", 2 ]
+>>>>>>> Stashed changes
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-67", 0 ]
+=======
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-6", 0 ]
+>>>>>>> Stashed changes
 				}
 
 			}
@@ -550,6 +620,7 @@
 				}
 
 			}
+<<<<<<< Updated upstream
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
@@ -557,6 +628,8 @@
 				}
 
 			}
+=======
+>>>>>>> Stashed changes
  ],
 		"originid" : "pat-228",
 		"oscreceiveudpport" : 0
