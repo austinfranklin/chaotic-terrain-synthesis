@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1018.0, 774.0 ],
+		"rect" : [ 637.0, 153.0, 1018.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -1171,7 +1171,7 @@
 
 							}
  ],
-						"originid" : "pat-222"
+						"originid" : "pat-2472"
 					}
 ,
 					"patching_rect" : [ 2498.648481845855713, 172.97296142578125, 120.0, 22.0 ],
@@ -1438,7 +1438,7 @@
 
 							}
  ],
-						"originid" : "pat-224"
+						"originid" : "pat-2474"
 					}
 ,
 					"patching_rect" : [ 2728.378196239471436, 172.97296142578125, 128.0, 22.0 ],
@@ -2537,7 +2537,7 @@
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 985.074591636657715, 461.194013357162476, 115.0, 22.0 ],
@@ -2551,7 +2551,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1059.701454639434814, 567.088600158691406, 29.0, 22.0 ],
+					"patching_rect" : [ 1081.074591636657715, 567.088600158691406, 29.0, 22.0 ],
 					"text" : "s~ r"
 				}
 
@@ -2896,7 +2896,7 @@
 
 							}
  ],
-						"originid" : "pat-246"
+						"originid" : "pat-2496"
 					}
 ,
 					"patching_rect" : [ 76.086955070495605, 1116.41787052154541, 85.0, 22.0 ],
@@ -4210,6 +4210,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"source" : [ "obj-345", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-348", 0 ]
 				}
@@ -4682,7 +4689,7 @@
 
 			}
  ],
-		"originid" : "pat-214",
+		"originid" : "pat-2464",
 		"parameters" : 		{
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-339" : [ "index[2]", "index", 0 ],
@@ -4697,15 +4704,15 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Clifford.gendsp",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
+				"name" : "Duffing.gendsp",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_polar.tableread~.maxpat",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4713,20 +4720,20 @@
 , 			{
 				"name" : "pnp.reverb~.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
-				"patcherrelativepath" : "../../../../../../Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
+				"patcherrelativepath" : "../../Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wave.draw.maxpat",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wave.read~.maxpat",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-Personal/MaxMSP/Max Projects/AF ChaoticTerrain Collab",
+				"bootpath" : "~/chaotic-terrain-synthesis/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
