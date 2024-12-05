@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1688.0, 157.0, 1346.0, 990.0 ],
+		"rect" : [ 715.0, 100.0, 979.0, 911.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -114,7 +114,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 409.0, 718.0, 578.0, 22.0 ],
+					"patching_rect" : [ 409.0, 718.0, 598.0, 22.0 ],
 					"text" : "jit.gl.mesh #0_scan @draw_mode line_strip @color 1 1 1 1 @depth_enable 0 @layer 100 @line_width 2"
 				}
 
@@ -247,7 +247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 130.5, 330.0, 160.0, 22.0 ],
+					"patching_rect" : [ 130.5, 330.0, 180.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"precision" : 6
@@ -538,7 +538,7 @@
 
 			}
  ],
-		"originid" : "pat-755",
+		"originid" : "pat-3114",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
