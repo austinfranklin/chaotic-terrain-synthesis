@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 186.5, 481.0, 95.0, 22.0 ],
+					"text" : "r draw.viewreset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
 					"index" : 1,
@@ -56,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 186.0, 487.0, 128.0, 22.0 ],
+					"patching_rect" : [ 186.5, 511.0, 128.0, 22.0 ],
 					"text" : "jit.gl.handle @visible 0"
 				}
 
@@ -321,7 +333,7 @@
 
 							}
  ],
-						"originid" : "pat-20"
+						"originid" : "pat-295"
 					}
 ,
 					"patching_rect" : [ 170.0, 411.0, 68.5, 22.0 ],
@@ -385,7 +397,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.0, 511.0, 59.0, 22.0 ],
+					"patching_rect" : [ 330.0, 511.0, 59.0, 22.0 ],
 					"text" : "r texScan"
 				}
 
@@ -505,6 +517,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
 					"source" : [ "obj-57", 0 ]
 				}
@@ -539,7 +558,7 @@
 
 			}
  ],
-		"originid" : "pat-18"
+		"originid" : "pat-293"
 	}
 
 }
