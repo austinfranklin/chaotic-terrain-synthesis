@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2134.0, 455.0, 1000.0, 780.0 ],
+		"rect" : [ 134.0, 100.0, 1000.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -56,8 +56,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 194.0, 511.0, 69.0, 22.0 ],
-					"text" : "jit.gl.handle"
+					"patching_rect" : [ 186.0, 487.0, 128.0, 22.0 ],
+					"text" : "jit.gl.handle @visible 0"
 				}
 
 			}
@@ -121,7 +121,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -321,7 +321,7 @@
 
 							}
  ],
-						"originid" : "pat-539"
+						"originid" : "pat-20"
 					}
 ,
 					"patching_rect" : [ 170.0, 411.0, 68.5, 22.0 ],
@@ -539,7 +539,7 @@
 
 			}
  ],
-		"originid" : "pat-537"
+		"originid" : "pat-18"
 	}
 
 }
