@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 694.0, 243.0, 1000.0, 774.0 ],
+		"rect" : [ 694.0, 197.0, 1000.0, 774.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -69,7 +69,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 195.0, 146.5, 30.0, 30.0 ]
 				}
 
@@ -429,7 +429,7 @@
 
 							}
  ],
-						"originid" : "pat-2544"
+						"originid" : "pat-586"
 					}
 ,
 					"patching_rect" : [ 170.0, 411.0, 68.5, 22.0 ],
@@ -678,7 +678,7 @@
 
 			}
  ],
-		"originid" : "pat-2542",
+		"originid" : "pat-584",
 		"oscreceiveudpport" : 0
 	}
 

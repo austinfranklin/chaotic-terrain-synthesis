@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 715.0, 100.0, 979.0, 911.0 ],
+		"rect" : [ 955.0, 264.0, 931.0, 694.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -538,7 +538,7 @@
 
 			}
  ],
-		"originid" : "pat-3114",
+		"originid" : "pat-440",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
