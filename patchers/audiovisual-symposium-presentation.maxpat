@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 579.0, 132.0, 871.0, 741.0 ],
+		"rect" : [ 980.0, 108.0, 787.0, 731.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -516,7 +516,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 970.588216781616211, 1069.117626667022705, 99.0, 35.0 ],
-					"text" : "144 58 64 129 53 48"
+					"text" : "129 56 66 145 60 64"
 				}
 
 			}
@@ -1428,7 +1428,7 @@
 
 							}
  ],
-						"originid" : "pat-182"
+						"originid" : "pat-84"
 					}
 ,
 					"patching_rect" : [ 2938.888839840888977, 181.481478452682495, 120.0, 22.0 ],
@@ -1695,7 +1695,7 @@
 
 							}
  ],
-						"originid" : "pat-184"
+						"originid" : "pat-86"
 					}
 ,
 					"patching_rect" : [ 3168.518465638160706, 181.481478452682495, 128.0, 22.0 ],
@@ -2868,7 +2868,7 @@
 
 							}
  ],
-						"originid" : "pat-186"
+						"originid" : "pat-88"
 					}
 ,
 					"patching_rect" : [ 1424.074050307273865, 470.370362520217896, 36.0, 22.0 ],
@@ -3192,7 +3192,7 @@
 
 							}
  ],
-						"originid" : "pat-206"
+						"originid" : "pat-108"
 					}
 ,
 					"patching_rect" : [ 73.815775871276855, 1262.158566236495972, 85.0, 22.0 ],
@@ -4015,13 +4015,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-215", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -4873,21 +4866,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 1 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-409", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-409", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-409", 0 ]
 				}
 
 			}
@@ -5069,7 +5055,7 @@
 
 			}
  ],
-		"originid" : "pat-154",
+		"originid" : "pat-54",
 		"parameters" : 		{
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-339" : [ "index[2]", "index", 0 ],
