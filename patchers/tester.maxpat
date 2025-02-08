@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 980.0, 108.0, 787.0, 731.0 ],
+		"rect" : [ 313.0, 100.0, 850.0, 835.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -72,18 +72,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 148.499985694885254, 722.368414163589478, 126.0, 22.0 ],
-					"text" : "pnp.reverb~ 0.99 0.99"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -108,32 +96,6 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-54",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 498.684205770492554, 653.947362184524536, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-47",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 428.947364330291748, 655.2631516456604, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -153,18 +115,6 @@
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 511.307710647583008, 821.948043823242188, 336.0, 53.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-40",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 374.999996423721313, 705.263151168823242, 126.0, 22.0 ],
-					"text" : "pnp.reverb~ 0.99 0.99"
 				}
 
 			}
@@ -575,8 +525,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.051262259483337, 251.282036304473877, 84.0, 22.0 ],
-					"text" : "read lorenz.jxf"
+					"patching_rect" : [ 297.749967217445374, 251.282036304473877, 119.0, 22.0 ],
+					"text" : "read saved/lorenz.jxf"
 				}
 
 			}
@@ -611,8 +561,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.794840693473816, 251.282036304473877, 123.0, 22.0 ],
-					"text" : "read peter-de-jong.jxf"
+					"patching_rect" : [ 560.504208028316498, 251.260507047176361, 158.0, 22.0 ],
+					"text" : "read saved/peter-de-jong.jxf"
 				}
 
 			}
@@ -623,8 +573,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.34882128238678, 280.597004890441895, 135.0, 22.0 ],
-					"text" : "read hindmarsh-rose.jxf"
+					"patching_rect" : [ 445.34882128238678, 280.597004890441895, 170.0, 22.0 ],
+					"text" : "read saved/hindmarsh-rose.jxf"
 				}
 
 			}
@@ -635,8 +585,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 351.999967336654663, 280.597004890441895, 87.0, 22.0 ],
-					"text" : "read duffing.jxf"
+					"patching_rect" : [ 317.918034672737122, 280.69380134344101, 122.0, 22.0 ],
+					"text" : "read saved/duffing.jxf"
 				}
 
 			}
@@ -660,8 +610,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 429.487153887748718, 251.282036304473877, 86.0, 22.0 ],
-					"text" : "read clifford.jxf"
+					"patching_rect" : [ 429.487153887748718, 251.282036304473877, 122.0, 22.0 ],
+					"text" : "read saved/clifford.jxf"
 				}
 
 			}
@@ -693,9 +643,8 @@
 				"box" : 				{
 					"id" : "obj-136",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 147.499985694885254, 1125.316462278366089, 120.0, 22.0 ],
 					"text" : "pnp.reverb~ 0.25 0.4"
 				}
@@ -1428,7 +1377,7 @@
 
 							}
  ],
-						"originid" : "pat-84"
+						"originid" : "pat-204"
 					}
 ,
 					"patching_rect" : [ 2938.888839840888977, 181.481478452682495, 120.0, 22.0 ],
@@ -1695,7 +1644,7 @@
 
 							}
  ],
-						"originid" : "pat-86"
+						"originid" : "pat-206"
 					}
 ,
 					"patching_rect" : [ 3168.518465638160706, 181.481478452682495, 128.0, 22.0 ],
@@ -2868,7 +2817,7 @@
 
 							}
  ],
-						"originid" : "pat-88"
+						"originid" : "pat-208"
 					}
 ,
 					"patching_rect" : [ 1424.074050307273865, 470.370362520217896, 36.0, 22.0 ],
@@ -3192,7 +3141,7 @@
 
 							}
  ],
-						"originid" : "pat-108"
+						"originid" : "pat-228"
 					}
 ,
 					"patching_rect" : [ 73.815775871276855, 1262.158566236495972, 85.0, 22.0 ],
@@ -3768,20 +3717,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-160", 1 ],
-					"source" : [ "obj-136", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-160", 0 ],
-					"source" : [ "obj-136", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-133", 0 ],
 					"source" : [ "obj-138", 0 ]
 				}
@@ -3826,13 +3761,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-149", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-136", 0 ],
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -4966,22 +4894,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
-					"order" : 1,
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 1 ],
-					"order" : 0,
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
@@ -4998,22 +4910,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 2 ],
-					"order" : 1,
-					"source" : [ "obj-54", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 2 ],
-					"order" : 0,
-					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -5055,8 +4951,10 @@
 
 			}
  ],
-		"originid" : "pat-54",
+		"originid" : "pat-168",
 		"parameters" : 		{
+			"obj-136::obj-7::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-136::obj-7::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-15" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-339" : [ "index[2]", "index", 0 ],
 			"obj-340" : [ "depth[2]", "depth", 0 ],
@@ -5077,6 +4975,18 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "demosound.maxpat",
+				"bootpath" : "C74:/help/msp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "interfacecolor.js",
+				"bootpath" : "C74:/interfaces",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pnp.delay~.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
 				"patcherrelativepath" : "../../Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
@@ -5084,9 +4994,16 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "pnp.reverbfft~.maxpat",
+				"bootpath" : "~/Desktop/New-PnP-Tools/prototypes/reverb",
+				"patcherrelativepath" : "../../Desktop/New-PnP-Tools/prototypes/reverb",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pnp.reverb~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
-				"patcherrelativepath" : "../../Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
+				"bootpath" : "~/Desktop/New-PnP-Tools/prototypes/reverb",
+				"patcherrelativepath" : "../../Desktop/New-PnP-Tools/prototypes/reverb",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5095,6 +5012,30 @@
 				"bootpath" : "~/Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
 				"patcherrelativepath" : "../../Documents/Max 9/Packages/PnP.Maxtools/patchers/effects",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "saw.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
