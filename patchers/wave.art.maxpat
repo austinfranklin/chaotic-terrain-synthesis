@@ -10,7 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 342.0, 87.0, 1180.0, 826.0 ],
+		"rect" : [ 556.0, 106.0, 1180.0, 826.0 ],
+		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -1064,7 +1065,7 @@
 
 							}
  ],
-						"originid" : "pat-684"
+						"originid" : "pat-386"
 					}
 ,
 					"patching_rect" : [ 387.671204686164856, 397.260245084762573, 109.0, 23.0 ],
@@ -1099,6 +1100,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 150.6849205493927, 127.397251009941101, 256.0, 256.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 256.0, 256.0 ],
 					"sync" : 1
 				}
 
@@ -1500,7 +1503,7 @@
 
 			}
  ],
-		"originid" : "pat-682",
+		"originid" : "pat-384",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
